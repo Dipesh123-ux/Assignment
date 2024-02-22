@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: sans-serif !important;
+}
+
+.dark {
+  background-color: rgb(32, 29, 29) !important;
+  color: white !important;
+}
+
+.light {
+  background-color: rgb(225, 224, 224) !important;
+
+}
