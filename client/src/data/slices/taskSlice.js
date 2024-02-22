@@ -2,7 +2,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const url = "http://localhost:8080";
+const url = "https://wild-red-clownfish-cap.cyclic.app";
 
 export const tasksSlice = createSlice({
   name: "tasks",
