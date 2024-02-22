@@ -68,6 +68,7 @@ export const createTask = (newTask) => async (dispatch) => {
 // Async action to update a task
 export const updateTask = (id, updatedTask) => async (dispatch) => {
   try {
+    console.log(id,updatedTask);
     const response = await axios.put(`${url}/api/tasks/${id}`, updatedTask);
     dispatch(updateTaskSuccess({ id, updatedTask: response.data }));
   } catch (error) {
